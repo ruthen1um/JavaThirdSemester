@@ -3,8 +3,7 @@ package first;
 import fibonacci.FibNumber;
 
 public class FirstPrevFibNumber extends FibNumber {
-    public FirstPrevFibNumber() {
-        // второй член последовательности Фибоначчи
-        this.n = 1;
+    public FirstPrevFibNumber(int n) {
+        this.n = n - 1;
     }
 }
